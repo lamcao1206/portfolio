@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>CnLam Portfolio</title>
+    <link rel="stylesheet" href="/src/style.css" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css" />
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet" />
+  </head>
+  <body>
+    <header>
+      <div class="container">
+        <div class="logo">
+          <i class="fa-solid fa-l"></i>
+          <div class="logo-text">LamDev</div>
+        </div>
+        <nav>
+          <ul class="navlinks">
+            <li><a href="#about-me" class="navlink">About me</a></li>
+            <li><a href="#skills" class="navlink">My skill</a></li>
+            <li><a href="#projects" class="navlink">Project</a></li>
+            <li><a href="#contact" class="navlink">Contact</a></li>
+          </ul>
+        </nav>
+      </div>
+    </header>
+    <main class="container">
+      <section class="about-me" id="about-me">
+        <div class="avatar">
+          <img src="/avatar.png" alt="Profile picture" />
+        </div>
+        <div class="about-text">
+          <h5 class="introduction">Hello World, my name is</h5>
+          <h1 class="animated-name">Cao Ngoc Lam</h1>
+          <p class="animated-text">
+            I am currently a third-year student at Ho Chi Minh University of Technology, pursuing a degree in Computer Science. With a strong passion for back-end development, I am dedicated to honing my skills in creating efficient, scalable, and
+            reliable systems.
+          </p>
+
+          <div class="btn-group">
+            <a href="#" class="btn active">Download CV</a>
+            <a href="#" class="btn">Contact</a>
+          </div>
+
+          <div class="social">
+            <a href="#"><i class="fa-brands fa-facebook"></i></a>
+            <a href="#"><i class="fa-brands fa-linkedin"></i></a>
+            <a href="#"><i class="fa-brands fa-github"></i></a>
+          </div>
+        </div>
+      </section>
+      <section id="skills" class="skills-section">
+        <div class="container">
+          <h2 class="section-title">My Skills</h2>
+          <div id="skills-grid" class="skills-grid"></div>
+        </div>
+      </section>
+    </main>
+
+    <script src="src/main.js"></script>
+  </body>
+</html>
