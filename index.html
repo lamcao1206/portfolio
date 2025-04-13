@@ -35,12 +35,12 @@
           <h5 class="introduction">Hello World, my name is</h5>
           <h1 class="animated-name">Cao Ngoc Lam</h1>
           <p class="animated-text">
-            I am currently a third-year student at Ho Chi Minh University of Technology, pursuing a degree in Computer Science. With a strong passion for back-end development, I am dedicated to honing my skills in creating efficient, scalable, and
-            reliable systems.
+            I am currently a third-year student at Ho Chi Minh University of Technology, pursuing a degree in Computer Science. With a strong passion
+            for back-end development, I am dedicated to honing my skills in creating efficient, scalable, and reliable systems.
           </p>
 
           <div class="btn-group">
-            <a href="#" class="btn active">Download CV</a>
+            <a href="/CV.pdf" class="btn active" download>Download CV</a>
             <a href="#" class="btn">Contact</a>
           </div>
 
@@ -51,10 +51,49 @@
           </div>
         </div>
       </section>
+
       <section id="skills" class="skills-section">
         <div class="container">
           <h2 class="section-title">My Skills</h2>
           <div id="skills-grid" class="skills-grid"></div>
+        </div>
+      </section>
+
+      <section id="projects" class="projects-section">
+        <div class="container">
+          <h2 class="section-title">My Projects</h2>
+          <div class="projects-grid">
+            <div class="project-card">
+              <img src="/hcmut-ssps.jpg" alt="HCMUT SSPS" class="project-image" />
+              <div class="project-info">
+                <h3>HCMUT SSPS</h3>
+                <p>
+                  Developed a smart printing system for university students, enabling document uploads and customizable printing options. Designed and
+                  implemented the UI with ReactJS and TailwindCSS, and server-side application with NodeJS and ExpressJS. Integrated MySQL for data
+                  management.
+                </p>
+                <div class="project-links">
+                  <a href="https://github.com/lamcao1206/hcmut-ssps" class="btn">GitHub</a>
+                </div>
+                <span class="project-date">November 2024</span>
+              </div>
+            </div>
+            <div class="project-card">
+              <img src="/bk-messenger.jpg" alt="BK Messenger" class="project-image" />
+              <div class="project-info">
+                <h3>BK Messenger</h3>
+                <p>
+                  Developed a university chat application supporting messaging, file sharing, and video calls. Implemented RESTful APIs for group chat
+                  creation, friend request system, message history pagination, and real-time updates. Optimized with Redis caching, integrated
+                  Cloudinary for file uploads, and used JWT for authentication and Socket.io for real-time communication.
+                </p>
+                <div class="project-links">
+                  <a href="https://github.com/lamcao1206/bk-messenger" class="btn">GitHub</a>
+                </div>
+                <span class="project-date">March 2025</span>
+              </div>
+            </div>
+          </div>
         </div>
       </section>
     </main>

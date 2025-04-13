@@ -110,3 +110,6 @@ skills.forEach((skill) => {
 
   skillsGrid.appendChild(skillCard);
 });
+
+const projectsSection = document.querySelector('.projects-section');
+observer.observe(projectsSection);
