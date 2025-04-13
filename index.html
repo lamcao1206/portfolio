@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>CnLam Portfolio</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css" />
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet" />
+    <link rel="stylesheet" crossorigin href="/portfolio/assets/index-k6PeXJyX.css">
+  </head>
+  <body>
+    <header>
+      <div class="container">
+        <div class="logo">
+          <i class="fa-solid fa-l"></i>
+          <div class="logo-text">LamDev</div>
+        </div>
+        <nav>
+          <ul class="navlinks">
+            <li><a href="#about-me" class="navlink">About me</a></li>
+            <li><a href="#skills" class="navlink">My skill</a></li>
+            <li><a href="#projects" class="navlink">Project</a></li>
+            <li><a href="#contact" class="navlink">Contact</a></li>
+          </ul>
+        </nav>
+      </div>
+    </header>
+    <main class="container">
+      <section class="about-me" id="about-me">
+        <div class="avatar">
+          <img src="/portfolio/avatar.png" alt="Profile picture" />
+        </div>
+        <div class="about-text">
+          <h5 class="introduction">Hello World, my name is</h5>
+          <h1 class="animated-name">Cao Ngoc Lam</h1>
+          <p class="animated-text">
+            I am currently a third-year student at Ho Chi Minh University of Technology, pursuing a degree in Computer Science. With a strong passion
+            for back-end development, I am dedicated to honing my skills in creating efficient, scalable, and reliable systems.
+          </p>
+
+          <div class="btn-group">
+            <a href="/CV.pdf" class="btn active" download>Download CV</a>
+            <a href="#" class="btn">Contact</a>
+          </div>
+
+          <div class="social">
+            <a href="#"><i class="fa-brands fa-facebook"></i></a>
+            <a href="#"><i class="fa-brands fa-linkedin"></i></a>
+            <a href="#"><i class="fa-brands fa-github"></i></a>
+          </div>
+        </div>
+      </section>
+
+      <section id="skills" class="skills-section">
+        <div class="container">
+          <h2 class="section-title">My Skills</h2>
+          <div id="skills-grid" class="skills-grid"></div>
+        </div>
+      </section>
+
+      <section id="projects" class="projects-section">
+        <div class="container">
+          <h2 class="section-title">My Projects</h2>
+          <div class="projects-grid">
+            <div class="project-card">
+              <img src="/hcmut-ssps.jpg" alt="HCMUT SSPS" class="project-image" />
+              <div class="project-info">
+                <h3>HCMUT SSPS</h3>
+                <p>
+                  Developed a smart printing system for university students, enabling document uploads and customizable printing options. Designed and
+                  implemented the UI with ReactJS and TailwindCSS, and server-side application with NodeJS and ExpressJS. Integrated MySQL for data
+                  management.
+                </p>
+                <div class="project-links">
+                  <a href="https://github.com/lamcao1206/hcmut-ssps" class="btn">GitHub</a>
+                </div>
+                <span class="project-date">November 2024</span>
+              </div>
+            </div>
+            <div class="project-card">
+              <img src="/bk-messenger.jpg" alt="BK Messenger" class="project-image" />
+              <div class="project-info">
+                <h3>BK Messenger</h3>
+                <p>
+                  Developed a university chat application supporting messaging, file sharing, and video calls. Implemented RESTful APIs for group chat
+                  creation, friend request system, message history pagination, and real-time updates. Optimized with Redis caching, integrated
+                  Cloudinary for file uploads, and used JWT for authentication and Socket.io for real-time communication.
+                </p>
+                <div class="project-links">
+                  <a href="https://github.com/lamcao1206/bk-messenger" class="btn">GitHub</a>
+                </div>
+                <span class="project-date">March 2025</span>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <script src="src/main.js"></script>
+  </body>
+</html>
